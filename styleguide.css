@@ -1,0 +1,23 @@
+/*
+Button
+
+button component
+
+.btn - default
+.btn:hover - hover
+.btn--primary - primary
+
+markup:
+<button class="btn {$modifiers}">button text</button>
+
+Styleguide 1.0.0
+*/
+.btn {
+  padding: 0.5em 1em;
+  border: none;
+  -webkit-appearance: none; }
+  .btn:hover {
+    opacity: 0.6; }
+  .btn--primary {
+    background-color: red;
+    color: #fff; }
